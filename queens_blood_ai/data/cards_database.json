@@ -1,0 +1,4957 @@
+[
+  {
+    "id": 1,
+    "name": "Security Officer",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 2,
+    "name": "Riot Trooper",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 3,
+    "name": "Grenadier",
+    "cost": 2,
+    "power": 1,
+    "ability_positions": [
+      [
+        0,
+        2
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 4
+    },
+    "description": "When played, lower the power of enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 4,
+    "name": "J-Unit Sweeper",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 5,
+    "name": "Queen Bee",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 6,
+    "name": "Toxirat",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 3
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 3."
+  },
+  {
+    "id": 7,
+    "name": "Levikron",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 8,
+    "name": "Grasslands Wolf",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 9,
+    "name": "Mu",
+    "cost": 2,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 1
+    },
+    "description": "Raise the power of allied cards on affected tiles by 1 while this card is in play."
+  },
+  {
+    "id": 10,
+    "name": "Mandragora",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 0
+    },
+    "description": "When played, add Mandragora Minion to your hand."
+  },
+  {
+    "id": 11,
+    "name": "Elphadunk",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 12,
+    "name": "Cactuar",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        2,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "description": "Raise the power of allied cards on affected tiles by 3 while this card is in play."
+  },
+  {
+    "id": 13,
+    "name": "Crystalline Crab",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 14,
+    "name": "Quetzalcoatl",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 15,
+    "name": "Zu",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 16,
+    "name": "Devil Rider",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        -2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        -2
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 17,
+    "name": "Screamer",
+    "cost": 3,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 18,
+    "name": "Flan",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 19,
+    "name": "Crawler",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 20,
+    "name": "Archdragon",
+    "cost": 1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 3
+    },
+    "description": "When played, lower the power of enemy cards on affected tiles by 3."
+  },
+  {
+    "id": 21,
+    "name": "Ogre",
+    "cost": 2,
+    "power": 5,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 22,
+    "name": "Deathwheel",
+    "cost": 1,
+    "power": 1,
+    "ability_positions": [
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 3
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 3."
+  },
+  {
+    "id": 23,
+    "name": "Fleetwing",
+    "cost": 1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 24,
+    "name": "Zemzelett",
+    "cost": 2,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        -1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "description": "Raise the power of allied cards on affected tiles by 3 while this card is in play."
+  },
+  {
+    "id": 25,
+    "name": "Ignilisk",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 26,
+    "name": "Capparwire",
+    "cost": 1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 1."
+  },
+  {
+    "id": 27,
+    "name": "Mindflayer",
+    "cost": 2,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "description": "Lower the power of allied and enemy cards on affected tiles by 1 while this card is in play."
+  },
+  {
+    "id": 28,
+    "name": "Scrutineye",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "description": "Raise the power of allied and enemy cards on affected tiles by 1 while this card is in play."
+  },
+  {
+    "id": 29,
+    "name": "Hell Rider II",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 3
+    },
+    "description": "When played, lower the power of enemy cards on affected tiles by 3."
+  },
+  {
+    "id": 30,
+    "name": "Flametrooper",
+    "cost": 1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 3
+    },
+    "description": "When destroyed, lower the power of allied and enemy cards on affected tiles by 3."
+  },
+  {
+    "id": 31,
+    "name": "Spearhawk",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 32,
+    "name": "Sea Devil",
+    "cost": 3,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "cardPlayed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "POWER"
+    },
+    "description": "When allied cards are played from hand, raise this card's power by 1."
+  },
+  {
+    "id": 33,
+    "name": "Shoalopod",
+    "cost": 2,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 4
+    },
+    "description": "Raise the power of allied cards on affected tiles by 4 while this card is in play."
+  },
+  {
+    "id": 34,
+    "name": "Crown Lance",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 2
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 2."
+  },
+  {
+    "id": 35,
+    "name": "Tonberry King",
+    "cost": 2,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "cardDestroyed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 2,
+      "value_type": "POWER"
+    },
+    "description": "When allied cards are destroyed, raise this card's power by 2."
+  },
+  {
+    "id": 36,
+    "name": "Sandhog Pie",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "description": "When destroyed, raise the power of allied cards on affected tiles by 3."
+  },
+  {
+    "id": 37,
+    "name": "Bloatfloat",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        2
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 4
+    },
+    "description": "When destroyed, lower the power of allied and enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 38,
+    "name": "Bagnadrana",
+    "cost": 3,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "cardPlayed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "POWER"
+    },
+    "description": "When enemy cards are played from hand, raise this card's power by 1."
+  },
+  {
+    "id": 39,
+    "name": "Cockatrice",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "DESTROY",
+      "target": "BOTH"
+    },
+    "description": "When played, destroy allied and enemy cards on affected tiles."
+  },
+  {
+    "id": 40,
+    "name": "Heatseeker",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "destroyed": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 1
+    },
+    "description": "When destroyed, add Heatseeker Minion to your hand."
+  },
+  {
+    "id": 41,
+    "name": "Bomb",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 4
+    },
+    "description": "When destroyed, lower the power of allied and enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 42,
+    "name": "Thug",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "description": "This card has no abilities."
+  },
+  {
+    "id": 43,
+    "name": "Death Claw",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "cardDestroyed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "POWER"
+    },
+    "description": "When enemy cards are destroyed, raise this card's power by 1."
+  },
+  {
+    "id": 44,
+    "name": "Landworm",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "cardDestroyed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 2,
+      "value_type": "POWER"
+    },
+    "description": "When enemy cards are destroyed, raise this card's power by 2."
+  },
+  {
+    "id": 45,
+    "name": "Sandspitter",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 1."
+  },
+  {
+    "id": 46,
+    "name": "Chimera",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 2,
+      "value_type": "ENFEEBLED"
+    },
+    "description": "Raise power by 2 for each enfeebled enemy card."
+  },
+  {
+    "id": 47,
+    "name": "Joker",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "cardDestroyed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "POWER"
+    },
+    "description": "When allied and enemy cards are destroyed, raise this card's power by 1."
+  },
+  {
+    "id": 48,
+    "name": "Amphidex",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "description": "The first time this card is enhanced, raise the power of allied cards on affected tiles by 3."
+  },
+  {
+    "id": 49,
+    "name": "Frightflower",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENHANCE",
+      "target": "BOTH",
+      "value": 2
+    },
+    "description": "When destroyed, raise the power of allied and enemy cards on affected tiles by 2."
+  },
+  {
+    "id": 50,
+    "name": "Gagighandi",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 2
+    },
+    "description": "When first enhanced, lower the power of enemy cards on affected tiles by 2."
+  },
+  {
+    "id": 51,
+    "name": "Insectoid Chimera",
+    "cost": -1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "description": "Destroy an allied card and replace it."
+  },
+  {
+    "id": 52,
+    "name": "Gigantoad",
+    "cost": -1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "description": "Destroy an allied card and replace it."
+  },
+  {
+    "id": 53,
+    "name": "Maloceros",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "laneWon": {
+      "effect": "ADD_SCORE",
+      "target": "SELF",
+      "value": 10
+    },
+    "description": "When you win the lane, receive a score bonus of 10."
+  },
+  {
+    "id": 54,
+    "name": "Grandhorn",
+    "cost": -1,
+    "power": 3,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "description": "Destroy an allied card and replace it."
+  },
+  {
+    "id": 55,
+    "name": "Great Malboro",
+    "cost": 3,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 6
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 6."
+  },
+  {
+    "id": 56,
+    "name": "Grangalan",
+    "cost": 3,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 2
+    },
+    "description": "When played, add Grangalan Junior to your hand."
+  },
+  {
+    "id": 57,
+    "name": "Amalgam",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "destroyed": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 4
+    },
+    "description": "When destroyed, add Resurrected Amalgam to your hand."
+  },
+  {
+    "id": 58,
+    "name": "Skeeskee",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "cardDestroyed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "POWER"
+    },
+    "description": "When allied cards are destroyed, raise this card's power by 1."
+  },
+  {
+    "id": 59,
+    "name": "Griffon",
+    "cost": -1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "description": "Replace an ally and raise the power of allied cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 60,
+    "name": "Basilisk",
+    "cost": 3,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "DESTROY",
+      "target": "ENEMY"
+    },
+    "description": "When played, destroy enemy cards on affected tiles."
+  },
+  {
+    "id": 61,
+    "name": "Reapertail",
+    "cost": 1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "enfeebled": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 2
+    },
+    "description": "When played, lower the power of enemy cards on affected tiles by 2."
+  },
+  {
+    "id": 62,
+    "name": "Jabberwock",
+    "cost": 2,
+    "power": 6,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 1."
+  },
+  {
+    "id": 63,
+    "name": "Desert Sahagin",
+    "cost": 1,
+    "power": 3,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        0
+      ]
+    ],
+    "enfeebled": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 4
+    },
+    "description": "When first enfeebled, raise the power of allied cards on affected tiles by 4."
+  },
+  {
+    "id": 64,
+    "name": "Cavestalker",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "enfeebled": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 2
+    },
+    "description": "When first enfeebled, lower the power of enemy cards on affected tiles by 2."
+  },
+  {
+    "id": 65,
+    "name": "Stone Golem",
+    "cost": 1,
+    "power": 4,
+    "ability_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 4
+    },
+    "description": "When first enhanced, lower the power of enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 66,
+    "name": "Two Face",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 4
+    },
+    "enfeebled": {
+      "effect": "ENFEEBLE",
+      "target": "ALLY",
+      "value": 4
+    },
+    "description": "Enhanced: raise power of allied and enemy cards on affected tiles by 4. Enfeebled: lower their power by 4."
+  },
+  {
+    "id": 67,
+    "name": "Gi Specter",
+    "cost": -1,
+    "power": 2,
+    "rank_positions": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "description": "Replace an ally and lower the power of allied and enemy cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 68,
+    "name": "Valron",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 2,
+      "value_type": "ENFEEBLED"
+    },
+    "description": "Raise power by 2 for each other enfeebled ally card."
+  },
+  {
+    "id": 69,
+    "name": "Disgorgon",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "rank_boost": 2,
+    "description": "When played, raise position ranks by 2."
+  },
+  {
+    "id": 70,
+    "name": "Dragon",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 4
+    },
+    "description": "When played, lower the power of enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 71,
+    "name": "Twin Brain",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "rank_boost": 2,
+    "description": "When played, raise position ranks by 2."
+  },
+  {
+    "id": 72,
+    "name": "Black Bat",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 1."
+  },
+  {
+    "id": 73,
+    "name": "Bahba Velamyu",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 1
+    },
+    "description": "When destroyed, lower the power of enemy cards on affected tiles by 1."
+  },
+  {
+    "id": 74,
+    "name": "Rictus",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "ENFEEBLED"
+    },
+    "description": "Raise power by 1 for each other enfeebled allied and enemy card."
+  },
+  {
+    "id": 75,
+    "name": "Adjudicator",
+    "cost": 2,
+    "power": 1,
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "ENFEEBLED"
+    },
+    "description": "Raise power by 1 for each other enfeebled allied and enemy card."
+  },
+  {
+    "id": 76,
+    "name": "Yin & Yang",
+    "cost": -1,
+    "power": 3,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "description": "Replace an ally and raise the power of allied cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 77,
+    "name": "Diabolic Variant",
+    "cost": -1,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "description": "Replace an ally and lower the power of allied and enemy cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 78,
+    "name": "Special Forces Operator",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 79,
+    "name": "2-C SOLDIER Operator",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "description": "Raise the power of allied cards on affected tiles by 3 while this card is in play."
+  },
+  {
+    "id": 80,
+    "name": "Kelzmelzer",
+    "cost": -1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "description": "Replace an ally and lower the power of allied and enemy cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 81,
+    "name": "Panthera Protector",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 4
+    },
+    "description": "The first time this card is enhanced, raise the power of allied cards on affected tiles by 4."
+  },
+  {
+    "id": 82,
+    "name": "Hecteyes",
+    "cost": 1,
+    "power": 1,
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "description": "When destroyed, raise the power of allied cards on affected tiles by 3."
+  },
+  {
+    "id": 83,
+    "name": "Floating Death",
+    "cost": 1,
+    "power": 1,
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 1."
+  },
+  {
+    "id": 84,
+    "name": "Ironclad",
+    "cost": 3,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 3,
+      "value_type": "ENHANCED"
+    },
+    "description": "Raise power by 3 for each enhanced enemy card."
+  },
+  {
+    "id": 85,
+    "name": "Moss-Grown Adamantoise",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "rank_boost": 3,
+    "description": "When played, raise position ranks by 3."
+  },
+  {
+    "id": 86,
+    "name": "Cloud",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "power7": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "When this card's power first reaches 7, raise the power of allied cards on affected tiles by 2."
+  },
+  {
+    "id": 87,
+    "name": "Barret",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        2
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 8
+    },
+    "legendary": true,
+    "description": "When played, lower the power of enemy cards on affected tiles by 8."
+  },
+  {
+    "id": 88,
+    "name": "Tifa",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "laneWon": {
+      "effect": "ADD_SCORE",
+      "target": "SELF",
+      "value": 5
+    },
+    "legendary": true,
+    "description": "When you win the lane, receive a score bonus of 5."
+  },
+  {
+    "id": 89,
+    "name": "Aerith",
+    "cost": 2,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "legendary": true,
+    "description": "Raise the power of allied cards on affected tiles by 3 while this card is in play."
+  },
+  {
+    "id": 90,
+    "name": "Red XIII",
+    "cost": 1,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "enfeebled": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "When first enfeebled, lower the power of enemy cards on affected tiles by 2."
+  },
+  {
+    "id": 91,
+    "name": "Yuffie",
+    "cost": -1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "legendary": true,
+    "description": "Replace an ally and lower the power of allied and enemy cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 92,
+    "name": "Cait Sith",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 5
+    },
+    "legendary": true,
+    "description": "When played, add Moogle to your hand."
+  },
+  {
+    "id": 93,
+    "name": "Cid",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 6
+    },
+    "legendary": true,
+    "description": "When played, add The Tiny Bronco to your hand."
+  },
+  {
+    "id": 94,
+    "name": "Vincent",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "destroyed": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 7
+    },
+    "legendary": true,
+    "description": "When destroyed, add Galian Beast to your hand."
+  },
+  {
+    "id": 95,
+    "name": "Ifrit",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 2,
+      "value_type": "ENHANCED"
+    },
+    "legendary": true,
+    "description": "Raise power by 2 for each other enhanced ally card."
+  },
+  {
+    "id": 96,
+    "name": "Shiva",
+    "cost": 2,
+    "power": 4,
+    "played": {
+      "effect": "SPAWN_CARDS",
+      "target": "SELF",
+      "value": 0
+    },
+    "legendary": true,
+    "description": "When played, spawn Diamond Dust of power 2, 4, and 6 in empty positions."
+  },
+  {
+    "id": 97,
+    "name": "Ramuh",
+    "cost": 3,
+    "power": 3,
+    "rank_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 3
+    },
+    "legendary": true,
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 3."
+  },
+  {
+    "id": 98,
+    "name": "Titan",
+    "cost": 2,
+    "power": 5,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "rank_boost": 2,
+    "legendary": true,
+    "description": "When played, raise position ranks by 2."
+  },
+  {
+    "id": 99,
+    "name": "Kujata",
+    "cost": 3,
+    "power": 6,
+    "rank_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 5
+    },
+    "legendary": true,
+    "description": "When first enhanced, lower the power of enemy cards on affected tiles by 5."
+  },
+  {
+    "id": 100,
+    "name": "Odin",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 2,
+      "value_type": "ENHANCED"
+    },
+    "legendary": true,
+    "description": "Raise power by 2 for each enhanced enemy card."
+  },
+  {
+    "id": 101,
+    "name": "Phoenix",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 5
+    },
+    "legendary": true,
+    "description": "When destroyed, raise the power of allied cards on affected tiles by 5."
+  },
+  {
+    "id": 102,
+    "name": "Leviathan",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 3
+    },
+    "legendary": true,
+    "description": "Lower the power of enemy cards on affected tiles by 3 while this card is in play."
+  },
+  {
+    "id": 103,
+    "name": "Alexander",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 3,
+      "value_type": "ENFEEBLED"
+    },
+    "legendary": true,
+    "description": "Raise power by 3 for each other enfeebled ally card."
+  },
+  {
+    "id": 104,
+    "name": "Bahamut",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 5
+    },
+    "legendary": true,
+    "description": "When played, lower the power of enemy cards on affected tiles by 5."
+  },
+  {
+    "id": 105,
+    "name": "Bahamut Arisen",
+    "cost": 3,
+    "power": 4,
+    "played": {
+      "effect": "SPAWN_CARDS",
+      "target": "SELF",
+      "value": 1
+    },
+    "legendary": true,
+    "description": "When played, spawn Elementals - cards that enhance when destroyed - in your empty positions."
+  },
+  {
+    "id": 106,
+    "name": "Gilgamesh",
+    "cost": -1,
+    "power": 3,
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "played": {
+      "effect": "ENHANCE",
+      "target": "BOTH",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "legendary": true,
+    "description": "Replace an ally and raise the power of allied and enemy cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 107,
+    "name": "Chocobo & Moogle",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "ENHANCED"
+    },
+    "legendary": true,
+    "description": "Raise power by 1 for each other enhanced ally card."
+  },
+  {
+    "id": 108,
+    "name": "Fat Chocobo",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "legendary": true,
+    "description": "Creates a surfeit of positions around it when played."
+  },
+  {
+    "id": 109,
+    "name": "Posh Chocobo",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "laneWon": {
+      "effect": "ADD_SCORE",
+      "target": "SELF",
+      "value": 3
+    },
+    "legendary": true,
+    "description": "When you win the lane, receive a score bonus of 3."
+  },
+  {
+    "id": 110,
+    "name": "Moogle Trio",
+    "cost": 2,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 8
+    },
+    "legendary": true,
+    "description": "When played, add Moogle Mage and Moogle Bard to your hand."
+  },
+  {
+    "id": 111,
+    "name": "Magic Pot",
+    "cost": 3,
+    "power": 1,
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 112,
+    "name": "Materia Guardian",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "enfeebled": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 6
+    },
+    "legendary": true,
+    "description": "When first enfeebled, lower the power of enemy cards on affected tiles by 6."
+  },
+  {
+    "id": 113,
+    "name": "Midgardsormr",
+    "cost": 3,
+    "power": 6,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "cardDestroyed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "POWER"
+    },
+    "legendary": true,
+    "description": "When allied and enemy cards are destroyed, raise this card's power by 1."
+  },
+  {
+    "id": 114,
+    "name": "Mythril Golem",
+    "cost": 3,
+    "power": 8,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "legendary": true,
+    "description": "Possesses a crystal-hard resolve and an overwhelming amount of power."
+  },
+  {
+    "id": 115,
+    "name": "Terror of the Deep",
+    "cost": 3,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "legendary": true,
+    "description": "Lower the power of allied and enemy cards on affected tiles by 1 while this card is in play."
+  },
+  {
+    "id": 116,
+    "name": "Grasptropod",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 4
+    },
+    "legendary": true,
+    "description": "When first enhanced, lower the power of allied and enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 117,
+    "name": "Custom Valkyrie",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 4
+    },
+    "legendary": true,
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 118,
+    "name": "Gigatrice",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "DESTROY",
+      "target": "BOTH"
+    },
+    "legendary": true,
+    "description": "When played, destroy allied and enemy cards on affected tiles."
+  },
+  {
+    "id": 119,
+    "name": "Dyne",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 5
+    },
+    "legendary": true,
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 5."
+  },
+  {
+    "id": 120,
+    "name": "Anuran Suppressor",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "cardDestroyed": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 2,
+      "value_type": "POWER"
+    },
+    "legendary": true,
+    "description": "When enemy cards are destroyed, raise this card's power by 2."
+  },
+  {
+    "id": 121,
+    "name": "Specimen H1024",
+    "cost": 3,
+    "power": 6,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "BOTH",
+      "value": 3
+    },
+    "legendary": true,
+    "description": "Raise the power of allied and enemy cards on affected tiles by 3 while this card is in play."
+  },
+  {
+    "id": 122,
+    "name": "Crimson Mare Mk. II",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "enfeebled": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 5
+    },
+    "legendary": true,
+    "description": "When first enfeebled, lower the power of allied and enemy cards on affected tiles by 5."
+  },
+  {
+    "id": 123,
+    "name": "Gi Nattak",
+    "cost": -1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 0,
+      "value_type": "REPLACED_POWER"
+    },
+    "legendary": true,
+    "description": "Replace an ally and raise the power of allied cards on affected tiles by the replaced ally's power."
+  },
+  {
+    "id": 124,
+    "name": "Forgotten Specimen",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        2,
+        -1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 3
+    },
+    "legendary": true,
+    "description": "Raise the power of allied cards on affected tiles by 3 while this card is in play."
+  },
+  {
+    "id": 125,
+    "name": "Don Corneo & Abzu",
+    "cost": 2,
+    "power": 4,
+    "played": {
+      "effect": "ADD_CARD",
+      "target": "SELF",
+      "value": 9
+    },
+    "legendary": true,
+    "description": "When played, add both Cacneo and Donberry to your hand."
+  },
+  {
+    "id": 126,
+    "name": "Red Dragon",
+    "cost": 3,
+    "power": 6,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 4
+    },
+    "legendary": true,
+    "description": "When played, lower the power of allied and enemy cards on affected tiles by 4."
+  },
+  {
+    "id": 127,
+    "name": "Demon Gate",
+    "cost": 3,
+    "power": 5,
+    "rank_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "destroyed": {
+      "effect": "ENFEEBLE",
+      "target": "ENEMY",
+      "value": 9
+    },
+    "legendary": true,
+    "description": "When destroyed, lower the power of enemy cards on affected tiles by 9."
+  },
+  {
+    "id": 128,
+    "name": "Reno",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 129,
+    "name": "Rude",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 130,
+    "name": "Elena",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENFEEBLE",
+      "target": "BOTH",
+      "value": 99
+    },
+    "legendary": true,
+    "description": "When first enhanced, lower the power of allied and enemy cards on affected tiles by 99."
+  },
+  {
+    "id": 131,
+    "name": "Tseng",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        0,
+        2
+      ]
+    ],
+    "enhanced": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 4
+    },
+    "legendary": true,
+    "description": "The first time this card is enhanced, raise the power of allied cards on affected tiles by 4."
+  },
+  {
+    "id": 132,
+    "name": "Rufus",
+    "cost": 2,
+    "power": 4,
+    "rank_positions": [
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "legendary": true,
+    "description": "Creates an intimidatingly large number of positions around him when played."
+  },
+  {
+    "id": 133,
+    "name": "Roche",
+    "cost": 2,
+    "power": 6,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "played": {
+      "effect": "ENFEEBLE",
+      "target": "ALLY",
+      "value": 1
+    },
+    "legendary": true,
+    "description": "When played, lower the power of allied cards on affected tiles by 1."
+  },
+  {
+    "id": 134,
+    "name": "J-Squad",
+    "cost": 3,
+    "power": 2,
+    "played": {
+      "effect": "SPAWN_CARDS",
+      "target": "SELF",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "When played, spawn Hype Johnnys - cards that enhance while in play - in your empty positions."
+  },
+  {
+    "id": 135,
+    "name": "Chocobo Jockey",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        0,
+        1
+      ]
+    ],
+    "laneWon": {
+      "effect": "ADD_SCORE",
+      "target": "SELF",
+      "value": 10
+    },
+    "legendary": true,
+    "description": "When you win the lane, receive a score bonus of 10."
+  },
+  {
+    "id": 136,
+    "name": "Space Ranger",
+    "cost": 1,
+    "power": 2,
+    "rank_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "ENHANCED"
+    },
+    "legendary": true,
+    "description": "Raise power by 1 for each other enhanced enemy card."
+  },
+  {
+    "id": 137,
+    "name": "Haunted Hotel",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "ALLY",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 138,
+    "name": "Skywheel",
+    "cost": 3,
+    "power": 2,
+    "rank_positions": [
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "legendary": true,
+    "description": "Adds positions in the shape of a certain Gold Saucer attraction."
+  },
+  {
+    "id": 139,
+    "name": "Loveless",
+    "cost": 1,
+    "power": 1,
+    "ability_positions": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "played": {
+      "effect": "ENHANCE",
+      "target": "BOTH",
+      "value": 1
+    },
+    "legendary": true,
+    "description": "When played, raise the power of allied and enemy cards on affected tiles by 1."
+  },
+  {
+    "id": 140,
+    "name": "Saucer Squad",
+    "cost": 2,
+    "power": 3,
+    "rank_positions": [
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "legendary": true,
+    "description": "Makes use of its adorable nature to enliven the battlefield."
+  },
+  {
+    "id": 141,
+    "name": "Dio",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 1,
+      "value_type": "ENHANCED"
+    },
+    "legendary": true,
+    "description": "Raise power by 1 for each other enhanced allied and enemy card."
+  },
+  {
+    "id": 142,
+    "name": "Ultimate Party Animal",
+    "cost": 1,
+    "power": 1,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "legendary": true,
+    "description": "If this card is in play when the round ends, the loser of each lane's score is added to the victor's."
+  },
+  {
+    "id": 143,
+    "name": "Sephiroth",
+    "cost": 3,
+    "power": 4,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "played": {
+      "effect": "DESTROY",
+      "target": "ENEMY"
+    },
+    "legendary": true,
+    "description": "When played, destroy enemy cards on affected tiles."
+  },
+  {
+    "id": 144,
+    "name": "Emerald Witch",
+    "cost": 2,
+    "power": 2,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "ability_positions": [
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "BOTH",
+      "value": 2
+    },
+    "legendary": true,
+    "description": "Raise the power of allied and enemy cards on affected tiles by 2 while this card is in play."
+  },
+  {
+    "id": 145,
+    "name": "Shadowblood Queen",
+    "cost": 3,
+    "power": 3,
+    "rank_positions": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "inPlay": {
+      "effect": "ENHANCE",
+      "target": "SELF",
+      "value": 3,
+      "value_type": "ENFEEBLED"
+    },
+    "legendary": true,
+    "description": "Raise power by 3 for each other enfeebled allied and enemy card."
+  }
+]

@@ -1,0 +1,636 @@
+{
+  "minions": [
+    [
+      {
+        "name": "Mandragora Minion",
+        "cost": 1,
+        "power": 1,
+        "rank_positions": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "description": ""
+      }
+    ],
+    [
+      {
+        "name": "Heatseeker Minion",
+        "cost": 1,
+        "power": 1,
+        "rank_positions": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "description": ""
+      }
+    ],
+    [
+      {
+        "name": "Grangalan Junior",
+        "cost": 2,
+        "power": 2,
+        "rank_positions": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "played": {
+          "effect": "ADD_CARD",
+          "target": "SELF",
+          "value": 3
+        },
+        "description": "When played, add Baby Grangalan to your hand."
+      }
+    ],
+    [
+      {
+        "name": "Baby Grangalan",
+        "cost": 1,
+        "power": 1,
+        "rank_positions": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "ability_positions": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "destroyed": {
+          "effect": "ENFEEBLE",
+          "target": "BOTH",
+          "value": 5
+        },
+        "description": "When destroyed, lower the power of allied and enemy cards on affected tiles by 5."
+      }
+    ],
+    [
+      {
+        "name": "Resurrected Amalgam",
+        "cost": 1,
+        "power": 2,
+        "rank_positions": [
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "ability_positions": [
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "inPlay": {
+          "effect": "ENFEEBLE",
+          "target": "BOTH",
+          "value": 2
+        },
+        "description": "Lower the power of allied and enemy cards on affected tiles by 2 while this card is in play."
+      }
+    ],
+    [
+      {
+        "name": "Moogle",
+        "cost": 2,
+        "power": 2,
+        "rank_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "ability_positions": [
+          [
+            -1,
+            0
+          ]
+        ],
+        "inPlay": {
+          "effect": "ENHANCE",
+          "target": "ALLY",
+          "value": 3
+        },
+        "legendary": true,
+        "description": "Raise the power of allied cards on affected tiles by 3 while this card is in play."
+      }
+    ],
+    [
+      {
+        "name": "The Tiny Bronco",
+        "cost": 2,
+        "power": 2,
+        "rank_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "rank_boost": 2,
+        "legendary": true,
+        "description": "When played, raise position ranks by 2."
+      }
+    ],
+    [
+      {
+        "name": "Galian Beast",
+        "cost": 2,
+        "power": 4,
+        "ability_positions": [
+          [
+            -2,
+            -1
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "played": {
+          "effect": "ENFEEBLE",
+          "target": "BOTH",
+          "value": 1
+        },
+        "legendary": true,
+        "description": "When played, lower the power of allied and enemy cards on affected tiles by 1."
+      }
+    ],
+    [
+      {
+        "name": "Moogle Mage",
+        "cost": 1,
+        "power": 1,
+        "rank_positions": [
+          [
+            -2,
+            2
+          ]
+        ],
+        "ability_positions": [
+          [
+            -2,
+            2
+          ]
+        ],
+        "played": {
+          "effect": "ENFEEBLE",
+          "target": "ENEMY",
+          "value": 4
+        },
+        "legendary": true,
+        "description": "When played, lower the power of enemy cards on affected tiles by 4."
+      },
+      {
+        "name": "Moogle Bard",
+        "cost": 1,
+        "power": 1,
+        "rank_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "ability_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "inPlay": {
+          "effect": "ENHANCE",
+          "target": "ALLY",
+          "value": 2
+        },
+        "legendary": true,
+        "description": "Raise the power of allied cards on affected tiles by 2 while this card is in play."
+      }
+    ],
+    [
+      {
+        "name": "Cacneo",
+        "cost": 2,
+        "power": 2,
+        "rank_positions": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "ability_positions": [
+          [
+            -2,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "inPlay": {
+          "effect": "ENHANCE",
+          "target": "ALLY",
+          "value": 3
+        },
+        "legendary": true,
+        "description": "Raise the power of allied cards on affected tiles by 3 while this card is in play."
+      },
+      {
+        "name": "Donberry",
+        "cost": 2,
+        "power": 2,
+        "rank_positions": [
+          [
+            0,
+            1
+          ]
+        ],
+        "ability_positions": [
+          [
+            0,
+            1
+          ]
+        ],
+        "played": {
+          "effect": "DESTROY",
+          "target": "ENEMY"
+        },
+        "legendary": true,
+        "description": "When played, destroy enemy cards on affected tiles."
+      }
+    ]
+  ],
+  "spawns": [
+    [
+      {
+        "name": "Diamond Dust",
+        "cost": 0,
+        "power": 2,
+        "description": ""
+      },
+      {
+        "name": "Diamond Dust",
+        "cost": 0,
+        "power": 4,
+        "description": ""
+      },
+      {
+        "name": "Diamond Dust",
+        "cost": 0,
+        "power": 6,
+        "description": ""
+      }
+    ],
+    [
+      {
+        "name": "Elemental",
+        "cost": 0,
+        "power": 1,
+        "ability_positions": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "destroyed": {
+          "effect": "ENHANCE",
+          "target": "BOTH",
+          "value": 1
+        },
+        "legendary": true,
+        "description": "When destroyed, raise the power of allied and enemy cards on affected tiles by 1."
+      }
+    ],
+    [
+      {
+        "name": "Hype Johnnys I",
+        "cost": 0,
+        "power": 3,
+        "ability_positions": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "inPlay": {
+          "effect": "ENHANCE",
+          "target": "BOTH",
+          "value": 1
+        },
+        "legendary": true,
+        "description": "Raise the power of allied and enemy cards on affected tiles by 1 while this card is in play."
+      },
+      {
+        "name": "Hype Johnnys II",
+        "cost": 0,
+        "power": 2,
+        "ability_positions": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "inPlay": {
+          "effect": "ENHANCE",
+          "target": "BOTH",
+          "value": 2
+        },
+        "legendary": true,
+        "description": "Raise the power of allied and enemy cards on affected tiles by 2 while this card is in play."
+      },
+      {
+        "name": "Hype Johnnys III",
+        "cost": 0,
+        "power": 1,
+        "ability_positions": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "inPlay": {
+          "effect": "ENHANCE",
+          "target": "BOTH",
+          "value": 4
+        },
+        "legendary": true,
+        "description": "Raise the power of allied and enemy cards on affected tiles by 4 while this card is in play."
+      }
+    ]
+  ]
+}
