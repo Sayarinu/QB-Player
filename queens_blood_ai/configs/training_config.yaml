@@ -4,6 +4,9 @@ training:
   update_frequency: 10
   evaluation_frequency: 50
   save_path: "queens_blood_model.pth"
+  league_path: "league_checkpoints/"
+  num_envs: 12
+  num_steps: 128  # Steps per env per update
   
 ppo:
   learning_rate: 0.0003

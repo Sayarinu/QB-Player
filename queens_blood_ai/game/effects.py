@@ -12,6 +12,10 @@ def resolve_ability(game: Any, source_card: Card, r: int, c: int, ability: Abili
         target_tiles = [(r, c)]
     else:
         for dr, dc in source_card.ability_positions:
+            # Flip horizontal direction for Player 2
+            if player == Player.PLAYER2:
+                dc = -dc
+            
             nr, nc = r + dr, c + dc
             if 0 <= nr < game.board.height and 0 <= nc < game.board.width:
                 target_tiles.append((nr, nc))

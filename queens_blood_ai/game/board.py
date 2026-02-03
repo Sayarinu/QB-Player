@@ -56,6 +56,10 @@ class Board:
         
         # Apply rank patterns
         for dr, dc in card.rank_positions:
+            # Flip horizontal direction for Player 2
+            if player == Player.PLAYER2:
+                dc = -dc
+
             nr, nc = row + dr, col + dc
             if 0 <= nr < self.height and 0 <= nc < self.width:
                 self.update_rank(nr, nc, player, card.rank_boost)
