@@ -12,6 +12,7 @@ add_executable(QB-Player
     src/main.cpp
     src/components/MainMenu.cpp
     src/components/TrainMenu.cpp
+    src/components/GameBoard.cpp
 )
 target_include_directories(QB-Player PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(QB-Player PRIVATE ftxui::component ftxui::dom ftxui::screen)
