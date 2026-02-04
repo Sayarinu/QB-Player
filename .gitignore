@@ -1,24 +1,6 @@
-
-# Environment Variables (Sensitive)
+python-legacy/
+build/
+.vscode/
 .env
 
-# Python Environment
-venv/
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Mac System
-.DS_Store
-
-# IDEs
-.vscode/
-.idea/
-
-# Models & Checkpoints
-*.pth
-league_checkpoints/
-queens_blood_model.pth
-
-# Training Logs
-runs/
+guide.md
