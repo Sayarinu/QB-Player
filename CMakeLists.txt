@@ -10,9 +10,9 @@ FetchContent_MakeAvailable(ftxui)
 
 add_executable(QB-Player
     src/main.cpp
-    src/components/MainMenu.cpp
-    src/components/TrainMenu.cpp
-    src/components/GameBoard.cpp
-)
+    src/ui/MainMenu.cpp
+    src/ui/TrainMenu.cpp
+    src/ui/PlayViewer.cpp
+ "src/simulation/BoardState.cpp")
 target_include_directories(QB-Player PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(QB-Player PRIVATE ftxui::component ftxui::dom ftxui::screen)

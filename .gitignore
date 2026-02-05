@@ -2,3 +2,5 @@ python-legacy/
 build/
 .vscode/
 .env
+
+.vs/
